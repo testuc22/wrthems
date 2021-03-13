@@ -1,0 +1,341 @@
+
+	h2 {
+    text-align: center;
+}
+	p {
+    font-size: 17px;
+}
+.banner h1 span {
+    color: #f9d34a;
+}
+.lpc-reviews h6 {
+    color: #f9d34a;
+}
+.landing-page.menubar-show .submenu-bar {
+    z-index: -9;
+}
+.submenu-bar {
+    background: #f1f1f1;
+    text-align: center;
+    position: sticky;
+    top:0px;
+    z-index: 999;
+}
+.submenu-bar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    justify-content: center;
+}
+.submenu-bar ul li{margin:0;}
+.submenu-bar ul li a {
+	color: #2d2d2d;
+	padding: 20px;
+	display: inline-block;
+	font-weight:800;
+	font-size:18px;
+}
+.landing-page-banner{padding-top: 190px; text-align: center; padding-bottom:100px; }
+.landingpage-content {
+    float: left;
+    width: 100%;
+}
+.lpc-intro {
+    padding:80px 0;
+    text-align: center;
+}
+.lpc-intro p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.fullwidth{width: 100%;}
+.lpc-services {
+    padding: 80px 0 60px;
+    background: #f1f1f1;
+}
+.lpc-why {
+    padding: 80px 0;
+}
+.lpc-why h2{
+	text-align: left;
+}
+.lpc-work {
+    padding: 0px 0;
+}
+.lpc-work-inner {
+    background: #f1f1f1;
+}
+.lpc-process {
+    padding: 80px 0;
+}
+.lpc-reviews {
+    background: #222222;
+    color: #ffffff;
+    padding: 80px 0;
+}
+.lpc-reviews *{color: #ffffff;}
+.lpc-reviews p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.lpc-reviews h2{ text-align: left; }
+.lpc-contact {
+    float: left;
+    width: 100%;
+    padding: 80px 0;
+}
+.lpc-services h3 {
+    margin: 30px 0 10px;
+}
+.lpc-services p {
+    margin: 0px 0 20px;
+}
+.tabs-content-item{ display: none; }
+.lpc-reviews h6 span {
+    font-weight: 300;
+}
+ul.tabs-head {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin:30px 0;
+    overflow: hidden;
+    position: relative;
+    padding: 20px 0;
+
+}
+ul.tabs-head:after {
+	content: '';
+	height: 5px;
+	width: 100%;
+	position: absolute;
+	bottom:15px;
+	left: 0;
+	background: #222222;
+}
+ul.tabs-head li {
+    margin: 0;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+ul.tabs-head li:after {
+    content: '';
+    position: absolute;
+    width:100%;
+    height: 5px;
+    background: #222222;
+    bottom:-5px;
+    right: 50%;
+    z-index: 8;
+}
+ul.tabs-head li.active:after {background:#f9d34a; }
+ul.tabs-head li a:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #222222;
+    top: 100%;
+    left: 50%;
+    margin: -7.5px 0 0 -8px;
+    z-index: 9;
+}
+ul.tabs-head li.active a:before {
+	background: #f9d34a;
+}
+ul.tabs-head li.active:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: #f9d34a;
+    bottom: -5px;
+    right: 0;
+    z-index: 8;
+}
+ul.tabs-head li a {
+    color: #222222;
+    font-size: 20px;
+    font-weight: 600;
+}
+.lpc-why li {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.tabs-content h3 {
+    margin-bottom: 30px;
+}
+.tabs-content h4 {
+    margin-top: 20px;
+    margin-bottom:8px;
+}
+.contact-sec-outer2 select {
+    padding: 15px;
+    height: 50px;
+    line-height: 1;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.6rem;
+    margin: 0 0 30px;
+}
+.contact-sec-outer2 label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0 !important;
+    transform: translateY(-50%);
+}
+
+.owl-theme .owl-nav [class*='owl-']{
+    margin: 0;
+    background: rgba(45, 45, 45, .95);
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    font-size: 2.4rem;
+    line-height: 50px;
+    color: #ffffff!important;
+    border: none;
+    border-radius: 0;
+}
+
+#accordion {display: none;}
+
+.acc-tab-title a {
+    color: #2d2d2d;
+    font-size: 16px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.acc-show-tab{display: none;}
+/*.acc-tab-wrap.show .acc-show-tab{display: block;}*/
+
+a.acc-tab-link.open i::before{
+    content: "\f068";
+}
+.acc-tab-title a i {
+    font-size: 12px;
+}
+.acc-tab-content {
+    padding: 15px 0;
+}
+.acc-tab-title {
+    padding: 10px 0px;
+    border-bottom: 1px solid #ddd;
+}
+.acc-tab-wrap {
+    margin-bottom: 20px;
+}
+.acc-tab-content h4 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+.acc-tab-content p {
+    font-size: 16px;
+}
+
+.custom-modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255,255,255,.97);
+    z-index: 999;
+    text-align: center;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+.modal-open .custom-modal {display: flex;}
+.modal-inner {
+    max-width: 570px;
+    padding: 0px 30px;
+    margin:40px 0;
+}
+.custom-modal input[type="text"], .custom-modal input[type="email"], .custom-modal textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin: 20px 0 0;
+    border: 1px solid #cfcfcf;
+}
+.custom-modal input[type="submit"] {
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    margin-top:20px;
+}
+a.cm-close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 24px;
+}
+.submenu-bar ul li a.cta-yellow.modal-btn {
+    margin: 4px 0 0 15px;
+    text-transform: capitalize;
+   
+}
+
+/*div#accordion{display: none;}*/
+@media(max-width: 1199px){ 
+   .lpc-services h3{font-size: 28px;}
+}
+@media(max-width: 991px){
+    .landing-page-banner h1 {font-size: 45px;}
+    .lpc-services h3{font-size: 23px;}
+}
+@media(max-width: 767px){
+    .landing-page-banner h1 {font-size: 35px;}
+    .landing-page-banner{padding-top: 110px;}
+    .submenu-bar ul li a{padding: 15px;}
+    .submenu-bar ul li a ,.lpc-why li{font-size: 16px;}
+    .lpc-services h3{font-size: 20px;}
+    #whyus h2 {margin-top: 50px;}
+    .tabs-content h4 ,.lpc-reviews p ,.lpc-intro p{font-size: 18px;}
+    .owl-theme .owl-nav [class*='owl-']{height: 40px;width: 40px;line-height: 40px;font-size: 1.9rem;}
+    #accordion {display: block;} 
+
+}
+@media(max-width: 575px){
+    .landing-page-banner h1{font-size: 29px;}
+    .lpc-intro p{font-size: 16px;}
+    .lpc-intro ,.lpc-services ,.lpc-why ,.lpc-process ,.lpc-reviews ,.lpc-contact{padding: 50px 0;}
+    .lpc-services ,.lpc-why li ,.lpc-services p ,.tabs-content p ,.lpc-reviews p{font-size: 15px;}
+    ul.tabs-head li{padding: 20px 0px;}
+    ul.tabs-head li a{font-size: 14px;}
+    .tabs-content-item h3 ,.lpc-reviews h2{font-size: 23px;}
+    .submenu-bar ul li a{padding: 20px 9px; font-size: 14px;}
+    .submenu-bar ul{padding: 0;}
+    ul.tabs-head li{width: 27%;}
+    .lpc-services h3{font-size: 20px;}
+    .submenu-bar{display: none;}
+    ul.tabs-head{display: none;}
+    .tabs-content{display: none;}
+    div#accordion{display: block; margin-top: 40px;}
+} 
+
